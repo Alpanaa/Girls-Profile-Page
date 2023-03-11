@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Poppins:wght@400;700&display=swap');
+
+/* font-family: 'EB Garamond', serif;
+font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.large_container{
+    width: 900px;
+    background-image: url("img/scenry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 700px;
+    background-color:white;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+
+.profile_Image{
+    width: 150px;
+    height: 150px;
+    background-image: url("img/profile_picture.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 80px 275px 40px;
+}
+
+.text{
+    padding: 0 80px;
+}
+
+.text .name{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-weight: 900;
+    color: rgb(95, 70, 6);
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.text .follow_Details{
+    text-align: center;
+    padding-bottom: 16px;
+    color: rgb(66, 48, 4);
+}
+
+.text .follow_Details span{
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: rgb(66, 48, 4);
+}
+
+.text .intro{
+    color: rgb(66, 48, 4);
+    text-align: left;
+    font-weight: 400;
+}
+
+
+
+
+.image_grid {
+    padding: 30px 80px;
+}
+
+
+.image_grid .images{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.image_grid .images img{
+    width: 170px;
+    height: 170px;
+}
+
+.last-text{
+    text-align: center;
+    color: rgb(176, 174, 174);
+    padding: 8px;
+}
+
+
+
+
